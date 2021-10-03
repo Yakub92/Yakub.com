@@ -1,0 +1,83 @@
+
+/*Tablet layout*/
+
+@media only screen and (min-width: 200px) and (max-width: 800px)
+{
+.header_division a {
+    margin: 4px;
+    font-size: 104%;}
+    
+.blog_data h6 a {
+    font-size: 16px;}
+
+.blog_data_text {
+    font-size: 16px;
+    margin: -1px;
+    padding: -1px;
+}
+.blog_data h6 {
+    font-size: 18px;
+    padding: 0px;
+}
+.about_text p{
+	font-size: 16px;
+}
+.footer ul li {
+    margin: 4px;
+    font-size: 17px;
+
+}
+.about_team {
+      height: 690px;
+}
+}
+
+
+
+/*Mobile layout*/
+
+@media only screen and (min-width: 200px) and (max-width: 520px)
+{
+	.Top_header h1 {
+    font-size: 200%;
+}
+.Top_header h1, p {
+    width: 98%;
+   padding: 1px;}
+
+   .Top_header p {
+    width: 100%;
+  	font-size: 12px;}
+.header_division {
+    margin-top: 4px;
+    padding: 10px;
+    text-align: left;}
+    .header_division a {
+    margin: 14px;
+    font-size: 118%;}
+    .blog_data {
+    margin-bottom: 15px;
+}
+.blog_data_text {
+    font-size: 16px;
+    margin: 4px;
+    padding: 10px;
+}
+.about_text p {
+    padding: 10px;}
+    .yakub_about_Text p, .junait_about_Text p {
+     padding: 10px;}
+    .footer ul li {
+    margin: 2px;
+    padding: 3px;
+    font-size: 16px;}
+ span a{
+ 		color: red;
+    }
+.about_team {
+      height: 697px;
+}
+}
+
+
+
